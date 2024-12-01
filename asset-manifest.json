@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/jamaluddin-khan/static/css/main.c5bca920.css",
-    "main.js": "/jamaluddin-khan/static/js/main.813500f8.js",
+    "main.js": "/jamaluddin-khan/static/js/main.fc8aa9c0.js",
     "static/js/453.9ab8d50b.chunk.js": "/jamaluddin-khan/static/js/453.9ab8d50b.chunk.js",
     "index.html": "/jamaluddin-khan/index.html",
     "main.c5bca920.css.map": "/jamaluddin-khan/static/css/main.c5bca920.css.map",
-    "main.813500f8.js.map": "/jamaluddin-khan/static/js/main.813500f8.js.map",
+    "main.fc8aa9c0.js.map": "/jamaluddin-khan/static/js/main.fc8aa9c0.js.map",
     "453.9ab8d50b.chunk.js.map": "/jamaluddin-khan/static/js/453.9ab8d50b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c5bca920.css",
-    "static/js/main.813500f8.js"
+    "static/js/main.fc8aa9c0.js"
   ]
 }
