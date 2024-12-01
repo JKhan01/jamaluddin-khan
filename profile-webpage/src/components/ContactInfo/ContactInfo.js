@@ -6,13 +6,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function ContactInfo() {
     // const phoneIcon = window.location.origin + "/logos/phone-call-svgrepo-com.svg";
-    const phoneIcon = window.location.origin + "/logos/phone-call-svgrepo-com.svg";
-    const mailIcon = window.location.origin + "/logos/email-svgrepo-com.svg";
-    const githubIcon = window.location.origin + "/logos/github-color-svgrepo-com.svg";
-    const linkedInIcon = window.location.origin + "/logos/linkedin-svgrepo-color-com.svg";
-    const discordIcon = window.location.origin + "/logos/discord-v2-svgrepo-com.svg";
+    const publicUrl = process.env.PUBLIC_URL;
+    const phoneIcon = publicUrl + "/logos/phone-call-svgrepo-com.svg";
+    const mailIcon =  publicUrl + "/logos/email-svgrepo-com.svg";
+    const githubIcon = publicUrl + "/logos/github-color-svgrepo-com.svg";
+    const linkedInIcon = publicUrl + "/logos/linkedin-svgrepo-color-com.svg";
+    const discordIcon = publicUrl + "/logos/discord-v2-svgrepo-com.svg";
 
-    const profilePhoto = window.location.origin + "/ProfilePic.png";
+    const profilePhoto = publicUrl + "/ProfilePic.png";
     // const profilePhoto = window.location.origin + "/Photo-Grayscale-Main.jpg";
     return (
             <div className="landing-container">
