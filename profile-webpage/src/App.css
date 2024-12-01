@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Teko:wght@300..700&display=swap');
+
+:root {
+  --bg-color: #081b29;
+  --shadow-color: #04121b;
+  --second-bg-color: #112e42;
+  --text-color: #ededed;
+  --main-color: #00abf0;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+body, .empty-container {
+  background-color: var(--bg-color);
+}
+
+.empty-container {
+  align-items: center;
+  justify-content: center;
+}
+
+.empty-container .list-group-item {
+  background-color: var(--bg-color);
+  color: #00abf0;
+  font-size: calc(10px + 1vmin);
+  border-style: none;
+}
+
+.nav-links-container {
+  height: 7.5vh;
+  box-sizing: border-box;
+  padding-bottom: 2px;
+  padding-left: 2px;
+}
+
+.App-header {
+  font-size: calc(10px + 3.5vmin);
+}
+
+.main-container {
+  background-color: var(--second-bg-color);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 1vmin);
+  color: var(--text-color);
+  font-family: "Poppins", sans-serif;
+}
+
+/* .github {
+  justify-content: right;
+  align-items: right;
+}
+
+.linkedin {
+  justify-content: left;
+  align-items: left;
+} */
+
+.App-link, .contact-options a, .contact-options span  {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,15 @@
+.contact-info-container img {
+    width: 3.5vw;
+    height: 3.5vw;
+    /* fill: #333; */
+    padding: 2px;
+    margin: 1px;
+}
+
+.image-container img {
+    border-radius: 50%;
+    width: 384px;
+    height: 384px;
+    object-fit: cover;
+}
+
